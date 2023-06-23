@@ -1,0 +1,56 @@
+    body {        
+            font-family: google sans;
+            background-image: linear-gradient(to right, #abf5a3, #dbdb5c);
+            margin: 0;
+            padding: 0;
+            color: #2a702a;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        h2 {
+            font-family: google sans;
+            margin-top: 0;
+            text-align: center;
+            font-size:28px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="number"],
+        select {
+            width: 150%;
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            font-family: google sans;
+            width: 150%;
+            padding: 6px;
+            margin-top: 20px;
+            font-size: 19px;
+            font-weight: bold;
+            color: #2a702a;
+            background-image: linear-gradient(to right, #7ad970, #dddd27);
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            box-shadow: 0 5px 10px rgba(112 169 105);
+        }
+        button:hover {
+            background-image: linear-gradient(to right, #71c168, #d9d94a);
+        }
+        #result {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 17px;
+            color: #2a702a;
+            font-family: google sans;
+        }
